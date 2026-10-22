@@ -1,0 +1,149 @@
+{
+  "revision": "B - bridge-only concept",
+  "product_entities": {
+    "F369": {
+      "product": "green",
+      "all_vertices_widths_bulges_identical": true,
+      "vertex_count": 123
+    },
+    "F36A": {
+      "product": "yellow",
+      "all_vertices_widths_bulges_identical": true,
+      "vertex_count": 10
+    },
+    "F3A2": {
+      "product": "yellow",
+      "all_vertices_widths_bulges_identical": true,
+      "vertex_count": 186
+    },
+    "F3A3": {
+      "product": "green",
+      "all_vertices_widths_bulges_identical": true,
+      "vertex_count": 22
+    }
+  },
+  "white_upper_edges_replaced": 2,
+  "bridge_subset_of_original_area_difference_mm2": 0.0,
+  "end_neck_mm": [
+    0.25,
+    0.25
+  ],
+  "arc_radius_mm": 1.533345074421304,
+  "arc_sag_mm": 0.2532129480695731,
+  "bridge_area_mm2": 0.5694181933564119,
+  "middle_normal_thickness_mm": 0.37178704661685297,
+  "elastic_screening": [
+    {
+      "h_mm": 0.015,
+      "nodes": 4096,
+      "elements": 7890,
+      "q_N_per_mm_at_0_001mm": 2.2805424226628435,
+      "stiffness_N_per_mm_length_per_mm_travel": 2280.5424226628434,
+      "neck": {
+        "left_green": {
+          "force_x_per_q": 0.8230749413519249,
+          "force_y_per_q": 0.500000000001786,
+          "moment_per_q": 0.21354960744781964,
+          "N_per_q": 0.9596992159638293,
+          "V_per_q": -0.08018587133449379,
+          "nominal_equivalent_per_q": 24.35382016455806,
+          "nominal_normal_extremes_per_q": [
+            -16.661965451122224,
+            24.33955917883014
+          ]
+        },
+        "left_yellow": {
+          "force_x_per_q": -0.823074941352137,
+          "force_y_per_q": -0.5,
+          "moment_per_q": -0.07818893495456243,
+          "N_per_q": -0.9596992159633653,
+          "V_per_q": 0.08018587133108825,
+          "nominal_equivalent_per_q": 11.375498103653428,
+          "nominal_normal_extremes_per_q": [
+            3.667340891729473,
+            -11.344934619398563
+          ]
+        }
+      },
+      "net_force_residual": 2.8967616798882626e-13,
+      "free_force_residual": 2.5481528595982393e-12,
+      "mesh_area": 0.5694181933564121,
+      "geometry_area": 0.5694181933564119
+    },
+    {
+      "h_mm": 0.0075,
+      "nodes": 16137,
+      "elements": 31674,
+      "q_N_per_mm_at_0_001mm": 2.260514546861514,
+      "stiffness_N_per_mm_length_per_mm_travel": 2260.5145468615137,
+      "neck": {
+        "left_green": {
+          "force_x_per_q": 0.8232579587236764,
+          "force_y_per_q": 0.49999999999722144,
+          "moment_per_q": 0.2127929473138756,
+          "N_per_q": 0.9598630021930046,
+          "V_per_q": -0.08010420475935207,
+          "nominal_equivalent_per_q": 24.281849102322358,
+          "nominal_normal_extremes_per_q": [
+            -16.588670933346947,
+            24.267574950888267
+          ]
+        },
+        "left_yellow": {
+          "force_x_per_q": -0.8232579587235876,
+          "force_y_per_q": -0.5,
+          "moment_per_q": -0.07757013504780995,
+          "N_per_q": -0.9598630021943079,
+          "V_per_q": 0.0801042047601653,
+          "nominal_equivalent_per_q": 11.316844661033048,
+          "nominal_normal_extremes_per_q": [
+            3.607280955758054,
+            -11.286184973274677
+          ]
+        }
+      },
+      "net_force_residual": 8.965292012481637e-13,
+      "free_force_residual": 5.365209031129952e-12,
+      "mesh_area": 0.5694181933564121,
+      "geometry_area": 0.5694181933564119
+    }
+  ],
+  "nominal_green_neck_yield_load_ratio_revB_to_original": 0.5943439902186373,
+  "nesting_samples": [
+    {
+      "down_mm": 0,
+      "original_and_revB_overlap_area_mm2_after_complete_bridge_removal": 0.0
+    },
+    {
+      "down_mm": 1,
+      "original_and_revB_overlap_area_mm2_after_complete_bridge_removal": 0.0
+    },
+    {
+      "down_mm": 5,
+      "original_and_revB_overlap_area_mm2_after_complete_bridge_removal": 0.0
+    },
+    {
+      "down_mm": 10,
+      "original_and_revB_overlap_area_mm2_after_complete_bridge_removal": 0.0
+    },
+    {
+      "down_mm": 20,
+      "original_and_revB_overlap_area_mm2_after_complete_bridge_removal": 0.0
+    },
+    {
+      "down_mm": 25,
+      "original_and_revB_overlap_area_mm2_after_complete_bridge_removal": 0.0
+    },
+    {
+      "down_mm": 30,
+      "original_and_revB_overlap_area_mm2_after_complete_bridge_removal": 0.0
+    },
+    {
+      "down_mm": 40,
+      "original_and_revB_overlap_area_mm2_after_complete_bridge_removal": 21.92150965334023
+    }
+  ],
+  "fracture_propagation_verified": false,
+  "inward_release_verified": false,
+  "extrusion_die_verified": false
+}
