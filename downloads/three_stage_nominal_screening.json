@@ -1,0 +1,77 @@
+[
+  {
+    "stage": "압출 중",
+    "temperature_C": 480,
+    "E_MPa": 40000,
+    "assumed_strength_MPa": [
+      5,
+      12,
+      25
+    ],
+    "revB_nominal_indicator_force_100mm_N": [
+      20.5915117670194,
+      49.41962824084656,
+      102.957558835097
+    ],
+    "revC_nominal_indicator_force_100mm_N": [
+      16.288709043682086,
+      39.092901704837004,
+      81.44354521841042
+    ],
+    "revC_nominal_indicator_force_6000mm_N": [
+      977.3225426209251,
+      2345.5741022902203,
+      4886.612713104626
+    ]
+  },
+  {
+    "stage": "공랭 후·시효 전",
+    "temperature_C": 25,
+    "E_MPa": 69000,
+    "assumed_strength_MPa": [
+      35,
+      55,
+      90
+    ],
+    "revB_nominal_indicator_force_100mm_N": [
+      144.1405823691358,
+      226.5066294372134,
+      370.6472118063492
+    ],
+    "revC_nominal_indicator_force_100mm_N": [
+      114.0209633057746,
+      179.17579948050295,
+      293.19676278627753
+    ],
+    "revC_nominal_indicator_force_6000mm_N": [
+      6841.257798346476,
+      10750.547968830177,
+      17591.80576717665
+    ]
+  },
+  {
+    "stage": "T5 시효 후·상온",
+    "temperature_C": 25,
+    "E_MPa": 69000,
+    "assumed_strength_MPa": [
+      110,
+      145,
+      170
+    ],
+    "revB_nominal_indicator_force_100mm_N": [
+      453.0132588744268,
+      597.1538412435626,
+      700.1114000786596
+    ],
+    "revC_nominal_indicator_force_100mm_N": [
+      358.3515989610059,
+      472.37256226678045,
+      553.8161074851909
+    ],
+    "revC_nominal_indicator_force_6000mm_N": [
+      21501.095937660353,
+      28342.35373600683,
+      33228.96644911145
+    ]
+  }
+]
