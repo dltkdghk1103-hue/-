@@ -1,0 +1,59 @@
+{
+  "model": "2D cross-section straight-ray screening at nominal attachment centers. No fracture marks, roughness, coating or 3D end visibility is simulated.",
+  "step_deg": 1,
+  "ray_start_offset_mm": 0.002,
+  "product_geometry_changed": false,
+  "checks": [
+    {
+      "yellow_down_mm": 0,
+      "root": "left_green",
+      "unobstructed_2d_ray_angles_deg": [],
+      "any_unobstructed_2d_ray": false
+    },
+    {
+      "yellow_down_mm": 0,
+      "root": "left_yellow",
+      "unobstructed_2d_ray_angles_deg": [],
+      "any_unobstructed_2d_ray": false
+    },
+    {
+      "yellow_down_mm": 0.5,
+      "root": "left_green",
+      "unobstructed_2d_ray_angles_deg": [],
+      "any_unobstructed_2d_ray": false
+    },
+    {
+      "yellow_down_mm": 0.5,
+      "root": "left_yellow",
+      "unobstructed_2d_ray_angles_deg": [],
+      "any_unobstructed_2d_ray": false
+    },
+    {
+      "yellow_down_mm": 2,
+      "root": "left_green",
+      "unobstructed_2d_ray_angles_deg": [],
+      "any_unobstructed_2d_ray": false
+    },
+    {
+      "yellow_down_mm": 2,
+      "root": "left_yellow",
+      "unobstructed_2d_ray_angles_deg": [],
+      "any_unobstructed_2d_ray": false
+    },
+    {
+      "yellow_down_mm": 10,
+      "root": "left_green",
+      "unobstructed_2d_ray_angles_deg": [],
+      "any_unobstructed_2d_ray": false
+    },
+    {
+      "yellow_down_mm": 10,
+      "root": "left_yellow",
+      "unobstructed_2d_ray_angles_deg": [],
+      "any_unobstructed_2d_ray": false
+    }
+  ],
+  "zero_visible_mark_verified": false,
+  "burr_height_computed": false,
+  "negative_tear_depth_computed": false
+}

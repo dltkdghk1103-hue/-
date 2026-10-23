@@ -1,0 +1,1275 @@
+{
+  "selected": {
+    "xy": -72.3,
+    "yg": 102.0,
+    "tg": 0.25,
+    "ty": 0.2,
+    "width": 0.5,
+    "k1": 0.32,
+    "k2": 0.28,
+    "peak": 0.4
+  },
+  "variants": [
+    {
+      "h_mm": 0.01,
+      "nodes": 16672,
+      "elements": 32508,
+      "q_N_per_mm_at_0_001mm": 0.9133479901386199,
+      "stiffness_N_per_mm_length_per_mm": 913.3479901386198,
+      "neck": {
+        "left_green": {
+          "force_x_per_q": 1.1005353238723417,
+          "force_y_per_q": 0.49999999999829275,
+          "moment_per_q": 0.18954177472467804,
+          "nominal_equivalent_per_q": 34.546534699321896,
+          "boundary_nodes": 22,
+          "section_chord_mm": 0.20000000000000506
+        },
+        "left_yellow": {
+          "force_x_per_q": -1.1005353238722313,
+          "force_y_per_q": -0.5,
+          "moment_per_q": -0.157190046410622,
+          "nominal_equivalent_per_q": 30.01139829103273,
+          "boundary_nodes": 23,
+          "section_chord_mm": 0.19990244936139148
+        }
+      },
+      "net_force_residual": 1.5974933586691517e-12,
+      "free_force_residual": 5.300395335032479e-12,
+      "geometry_area_mm2": 1.023172791244986,
+      "mesh_area_mm2": 1.0231727912449855,
+      "yellow_to_green_nominal_ratio": 0.8687238402415457,
+      "yellow_x_parameter_mm": -72.3,
+      "green_center_mm": [
+        -74.7820784514738,
+        102.0
+      ],
+      "yellow_chord_center_mm": [
+        -72.2992007031444,
+        103.09863547277423
+      ],
+      "green_neck_mm": 0.2,
+      "yellow_arc_neck_mm": 0.2,
+      "yellow_chord_neck_mm": 0.19990244936139148,
+      "nominal_body_width_mm": 0.5,
+      "root_center_distance_mm": 2.7150841267237262,
+      "centerline_length_mm": 2.8498822863231945,
+      "green_upper_end_to_existing_round_tangent_mm": 0.4002044772874037,
+      "yellow_connection_angle_from_flat_deg": 17.28171004054626,
+      "yellow_tangent_flat_point_mm": [
+        -71.70574582323385,
+        103.00573856686826
+      ],
+      "product_overlap_mm2": 8.542932041215754e-09,
+      "area_mm2": 1.023172791244986,
+      "bezier_first_tangent_fraction": 0.32,
+      "bezier_second_tangent_fraction": 0.28,
+      "width_peak_parameter": 0.4,
+      "parameters": {
+        "xy": -72.3,
+        "yg": 102.0,
+        "tg": 0.2,
+        "ty": 0.2,
+        "width": 0.5,
+        "k1": 0.32,
+        "k2": 0.28,
+        "peak": 0.4
+      },
+      "yellow_weight_6000mm_N": 129.07225135054492,
+      "yellow_mass_6000mm_kg": 13.15721216621253,
+      "selfweight_q_N_per_mm_including_bridges_as_yellow_load": 0.0215662434472009,
+      "selfweight_nominal_stress_MPa": 0.7450389775827494,
+      "stages": [
+        {
+          "stage": "hot",
+          "assumed_temperature_C": 480,
+          "assumed_E_MPa": 40000,
+          "assumed_yield_MPa": [
+            5,
+            12,
+            25
+          ],
+          "ratio_nominal_yield_to_selfweight_stress": [
+            6.711058280765806,
+            16.106539873837935,
+            33.55529140382903
+          ],
+          "nominal_indicator_force_100mm_N": [
+            14.473231667134892,
+            34.73575600112374,
+            72.36615833567446
+          ],
+          "nominal_indicator_force_6000mm_N": [
+            868.3939000280934,
+            2084.1453600674245,
+            4341.969500140467
+          ],
+          "critical_remaining_bond_length_mm_for_6000mm_weight": [
+            894.0467730992992,
+            372.51948879137467,
+            178.80935461985985
+          ],
+          "intact_selfweight_yellow_down_mm": 4.07312112667762e-05
+        },
+        {
+          "stage": "air_cooled_unaged",
+          "assumed_temperature_C": 25,
+          "assumed_E_MPa": 69000,
+          "assumed_yield_MPa": [
+            35,
+            55,
+            90
+          ],
+          "ratio_nominal_yield_to_selfweight_stress": [
+            46.97740796536064,
+            73.82164108842386,
+            120.7990490537845
+          ],
+          "nominal_indicator_force_100mm_N": [
+            101.31262166994424,
+            159.2055483384838,
+            260.51817000842806
+          ],
+          "nominal_indicator_force_6000mm_N": [
+            6078.757300196654,
+            9552.332900309028,
+            15631.090200505681
+          ],
+          "critical_remaining_bond_length_mm_for_6000mm_weight": [
+            127.72096758561418,
+            81.27697937266356,
+            49.66926517218329
+          ],
+          "intact_selfweight_yellow_down_mm": 2.361229638653693e-05
+        },
+        {
+          "stage": "aged_T5",
+          "assumed_temperature_C": 25,
+          "assumed_E_MPa": 69000,
+          "assumed_yield_MPa": [
+            110,
+            145,
+            170
+          ],
+          "ratio_nominal_yield_to_selfweight_stress": [
+            147.64328217684772,
+            194.62069014220836,
+            228.1759815460374
+          ],
+          "nominal_indicator_force_100mm_N": [
+            318.4110966769676,
+            419.7237183469118,
+            492.0898766825863
+          ],
+          "nominal_indicator_force_6000mm_N": [
+            19104.665800618055,
+            25183.42310081471,
+            29525.392600955176
+          ],
+          "critical_remaining_bond_length_mm_for_6000mm_weight": [
+            40.63848968633178,
+            30.829199072389628,
+            26.295493326449975
+          ],
+          "intact_selfweight_yellow_down_mm": 2.361229638653693e-05
+        }
+      ]
+    },
+    {
+      "h_mm": 0.01,
+      "nodes": 17187,
+      "elements": 33539,
+      "q_N_per_mm_at_0_001mm": 1.0478359719139627,
+      "stiffness_N_per_mm_length_per_mm": 1047.8359719139628,
+      "neck": {
+        "left_green": {
+          "force_x_per_q": 1.0842716143326323,
+          "force_y_per_q": 0.5000000000035771,
+          "moment_per_q": 0.20820186318461378,
+          "nominal_equivalent_per_q": 30.051215263612356,
+          "boundary_nodes": 24,
+          "section_chord_mm": 0.22499999999998788
+        },
+        "left_yellow": {
+          "force_x_per_q": -1.0842716143320994,
+          "force_y_per_q": -0.5,
+          "moment_per_q": -0.1585258981728931,
+          "nominal_equivalent_per_q": 24.600336500395745,
+          "boundary_nodes": 25,
+          "section_chord_mm": 0.22487232507046065
+        }
+      },
+      "net_force_residual": 7.664601882089007e-13,
+      "free_force_residual": 5.48905453458762e-12,
+      "geometry_area_mm2": 1.056676269184894,
+      "mesh_area_mm2": 1.056676269184895,
+      "yellow_to_green_nominal_ratio": 0.8186136994660302,
+      "yellow_x_parameter_mm": -72.3,
+      "green_center_mm": [
+        -74.7820784514738,
+        102.0
+      ],
+      "yellow_chord_center_mm": [
+        -72.29902267154235,
+        103.09921896802275
+      ],
+      "green_neck_mm": 0.225,
+      "yellow_arc_neck_mm": 0.225,
+      "yellow_chord_neck_mm": 0.22487232507046065,
+      "nominal_body_width_mm": 0.5,
+      "root_center_distance_mm": 2.7154830778172743,
+      "centerline_length_mm": 2.8504158072955423,
+      "green_upper_end_to_existing_round_tangent_mm": 0.3877044772874123,
+      "yellow_connection_angle_from_flat_deg": 17.246830298108065,
+      "yellow_tangent_flat_point_mm": [
+        -71.70574582323385,
+        103.00573856686826
+      ],
+      "product_overlap_mm2": 9.093014172090872e-09,
+      "area_mm2": 1.056676269184894,
+      "bezier_first_tangent_fraction": 0.32,
+      "bezier_second_tangent_fraction": 0.28,
+      "width_peak_parameter": 0.4,
+      "parameters": {
+        "xy": -72.3,
+        "yg": 102.0,
+        "tg": 0.225,
+        "ty": 0.225,
+        "width": 0.5,
+        "k1": 0.32,
+        "k2": 0.28,
+        "peak": 0.4
+      },
+      "yellow_weight_6000mm_N": 129.07225135054492,
+      "yellow_mass_6000mm_kg": 13.15721216621253,
+      "selfweight_q_N_per_mm_including_bridges_as_yellow_load": 0.021568018260441288,
+      "selfweight_nominal_stress_MPa": 0.6481451595540433,
+      "stages": [
+        {
+          "stage": "hot",
+          "assumed_temperature_C": 480,
+          "assumed_E_MPa": 40000,
+          "assumed_yield_MPa": [
+            5,
+            12,
+            25
+          ],
+          "ratio_nominal_yield_to_selfweight_stress": [
+            7.714321284818749,
+            18.514371083564996,
+            38.571606424093744
+          ],
+          "nominal_indicator_force_100mm_N": [
+            16.63826223378817,
+            39.9318293610916,
+            83.19131116894084
+          ],
+          "nominal_indicator_force_6000mm_N": [
+            998.2957340272901,
+            2395.9097616654963,
+            4991.47867013645
+          ],
+          "critical_remaining_bond_length_mm_for_6000mm_weight": [
+            777.7741914648519,
+            324.07257977702164,
+            155.55483829297037
+          ],
+          "intact_selfweight_yellow_down_mm": 3.550635070420744e-05
+        },
+        {
+          "stage": "air_cooled_unaged",
+          "assumed_temperature_C": 25,
+          "assumed_E_MPa": 69000,
+          "assumed_yield_MPa": [
+            35,
+            55,
+            90
+          ],
+          "ratio_nominal_yield_to_selfweight_stress": [
+            54.00024899373124,
+            84.85753413300624,
+            138.85778312673747
+          ],
+          "nominal_indicator_force_100mm_N": [
+            116.46783563651718,
+            183.02088457166985,
+            299.48872020818703
+          ],
+          "nominal_indicator_force_6000mm_N": [
+            6988.07013819103,
+            10981.25307430019,
+            17969.32321249122
+          ],
+          "critical_remaining_bond_length_mm_for_6000mm_weight": [
+            111.11059878069312,
+            70.7067446786229,
+            43.20967730360288
+          ],
+          "intact_selfweight_yellow_down_mm": 2.0583391712584023e-05
+        },
+        {
+          "stage": "aged_T5",
+          "assumed_temperature_C": 25,
+          "assumed_E_MPa": 69000,
+          "assumed_yield_MPa": [
+            110,
+            145,
+            170
+          ],
+          "ratio_nominal_yield_to_selfweight_stress": [
+            169.71506826601248,
+            223.7153172597437,
+            262.2869236838375
+          ],
+          "nominal_indicator_force_100mm_N": [
+            366.0417691433397,
+            482.5096047798569,
+            565.7009159487977
+          ],
+          "nominal_indicator_force_6000mm_N": [
+            21962.50614860038,
+            28950.576286791413,
+            33942.05495692786
+          ],
+          "critical_remaining_bond_length_mm_for_6000mm_weight": [
+            35.35337233931145,
+            26.81979970568455,
+            22.875711513672115
+          ],
+          "intact_selfweight_yellow_down_mm": 2.0583391712584023e-05
+        }
+      ]
+    },
+    {
+      "h_mm": 0.01,
+      "nodes": 17718,
+      "elements": 34600,
+      "q_N_per_mm_at_0_001mm": 1.1864826249365743,
+      "stiffness_N_per_mm_length_per_mm": 1186.4826249365742,
+      "neck": {
+        "left_green": {
+          "force_x_per_q": 1.0673721614565526,
+          "force_y_per_q": 0.500000000001334,
+          "moment_per_q": 0.22588558403003128,
+          "nominal_equivalent_per_q": 26.46634831722524,
+          "boundary_nodes": 26,
+          "section_chord_mm": 0.24999999999999908
+        },
+        "left_yellow": {
+          "force_x_per_q": -1.0673721614562792,
+          "force_y_per_q": -0.5,
+          "moment_per_q": -0.1582503097910006,
+          "nominal_equivalent_per_q": 20.500838330570122,
+          "boundary_nodes": 28,
+          "section_chord_mm": 0.24983009129061484
+        }
+      },
+      "net_force_residual": 9.487630308829758e-13,
+      "free_force_residual": 5.513326317079078e-12,
+      "geometry_area_mm2": 1.0900804544153515,
+      "mesh_area_mm2": 1.0900804544153504,
+      "yellow_to_green_nominal_ratio": 0.7746001860493708,
+      "yellow_x_parameter_mm": -72.3,
+      "green_center_mm": [
+        -74.7820784514738,
+        102.0
+      ],
+      "yellow_chord_center_mm": [
+        -72.2988089080934,
+        103.09989705544787
+      ],
+      "green_neck_mm": 0.25,
+      "yellow_arc_neck_mm": 0.25,
+      "yellow_chord_neck_mm": 0.24983009129061484,
+      "nominal_body_width_mm": 0.5,
+      "root_center_distance_mm": 2.715953084584403,
+      "centerline_length_mm": 2.8508427207954146,
+      "green_upper_end_to_existing_round_tangent_mm": 0.3752044772874067,
+      "yellow_connection_angle_from_flat_deg": 17.265216918077154,
+      "yellow_tangent_flat_point_mm": [
+        -71.70574582323385,
+        103.00573856686826
+      ],
+      "product_overlap_mm2": 9.533971243310838e-09,
+      "area_mm2": 1.0900804544153515,
+      "bezier_first_tangent_fraction": 0.32,
+      "bezier_second_tangent_fraction": 0.28,
+      "width_peak_parameter": 0.4,
+      "parameters": {
+        "xy": -72.3,
+        "yg": 102.0,
+        "tg": 0.25,
+        "ty": 0.25,
+        "width": 0.5,
+        "k1": 0.32,
+        "k2": 0.28,
+        "peak": 0.4
+      },
+      "yellow_weight_6000mm_N": 129.07225135054492,
+      "yellow_mass_6000mm_kg": 13.15721216621253,
+      "selfweight_q_N_per_mm_including_bridges_as_yellow_load": 0.021569787813749686,
+      "selfweight_nominal_stress_MPa": 0.5708735174073395,
+      "stages": [
+        {
+          "stage": "hot",
+          "assumed_temperature_C": 480,
+          "assumed_E_MPa": 40000,
+          "assumed_yield_MPa": [
+            5,
+            12,
+            25
+          ],
+          "ratio_nominal_yield_to_selfweight_stress": [
+            8.75850752844139,
+            21.020418068259335,
+            43.79253764220695
+          ],
+          "nominal_indicator_force_100mm_N": [
+            18.891914895360998,
+            45.3405957488664,
+            94.45957447680499
+          ],
+          "nominal_indicator_force_6000mm_N": [
+            1133.51489372166,
+            2720.4357449319837,
+            5667.5744686083
+          ],
+          "critical_remaining_bond_length_mm_for_6000mm_weight": [
+            685.0482208888074,
+            285.43675870366974,
+            137.0096441777615
+          ],
+          "intact_selfweight_yellow_down_mm": 3.135982204603058e-05
+        },
+        {
+          "stage": "air_cooled_unaged",
+          "assumed_temperature_C": 25,
+          "assumed_E_MPa": 69000,
+          "assumed_yield_MPa": [
+            35,
+            55,
+            90
+          ],
+          "ratio_nominal_yield_to_selfweight_stress": [
+            61.30955269908973,
+            96.34358281285529,
+            157.65313551194504
+          ],
+          "nominal_indicator_force_100mm_N": [
+            132.24340426752698,
+            207.81106384897097,
+            340.05446811649796
+          ],
+          "nominal_indicator_force_6000mm_N": [
+            7934.604256051619,
+            12468.66383093826,
+            20403.26808698988
+          ],
+          "critical_remaining_bond_length_mm_for_6000mm_weight": [
+            97.86403155554392,
+            62.27711098989158,
+            38.05823449382263
+          ],
+          "intact_selfweight_yellow_down_mm": 1.8179606983206132e-05
+        },
+        {
+          "stage": "aged_T5",
+          "assumed_temperature_C": 25,
+          "assumed_E_MPa": 69000,
+          "assumed_yield_MPa": [
+            110,
+            145,
+            170
+          ],
+          "ratio_nominal_yield_to_selfweight_stress": [
+            192.68716562571058,
+            253.99671832480033,
+            297.78925596700725
+          ],
+          "nominal_indicator_force_100mm_N": [
+            415.62212769794195,
+            547.8655319654689,
+            642.325106442274
+          ],
+          "nominal_indicator_force_6000mm_N": [
+            24937.32766187652,
+            32871.93191792814,
+            38539.506386536435
+          ],
+          "critical_remaining_bond_length_mm_for_6000mm_weight": [
+            31.13855549494579,
+            23.622352444441635,
+            20.148477084964924
+          ],
+          "intact_selfweight_yellow_down_mm": 1.8179606983206132e-05
+        }
+      ]
+    },
+    {
+      "h_mm": 0.01,
+      "nodes": 17189,
+      "elements": 33539,
+      "q_N_per_mm_at_0_001mm": 1.0668158556487182,
+      "stiffness_N_per_mm_length_per_mm": 1066.815855648718,
+      "neck": {
+        "left_green": {
+          "force_x_per_q": 1.0447573706571271,
+          "force_y_per_q": 0.4999999999955009,
+          "moment_per_q": 0.23561812645541894,
+          "nominal_equivalent_per_q": 27.295917972396843,
+          "boundary_nodes": 26,
+          "section_chord_mm": 0.24999999999999908
+        },
+        "left_yellow": {
+          "force_x_per_q": -1.044757370656744,
+          "force_y_per_q": -0.5,
+          "moment_per_q": -0.14198676014427328,
+          "nominal_equivalent_per_q": 27.564882094493385,
+          "boundary_nodes": 23,
+          "section_chord_mm": 0.19990244936139148
+        }
+      },
+      "net_force_residual": 4.1223954047355145e-12,
+      "free_force_residual": 5.2903180276002646e-12,
+      "geometry_area_mm2": 1.0557048736947983,
+      "mesh_area_mm2": 1.0557048736947987,
+      "yellow_to_green_nominal_ratio": 1.0098536390081672,
+      "yellow_x_parameter_mm": -72.3,
+      "green_center_mm": [
+        -74.7820784514738,
+        102.0
+      ],
+      "yellow_chord_center_mm": [
+        -72.2992007031444,
+        103.09863547277423
+      ],
+      "green_neck_mm": 0.25,
+      "yellow_arc_neck_mm": 0.2,
+      "yellow_chord_neck_mm": 0.19990244936139148,
+      "nominal_body_width_mm": 0.5,
+      "root_center_distance_mm": 2.7150841267237262,
+      "centerline_length_mm": 2.8498822863231945,
+      "green_upper_end_to_existing_round_tangent_mm": 0.3752044772874067,
+      "yellow_connection_angle_from_flat_deg": 17.28171004054626,
+      "yellow_tangent_flat_point_mm": [
+        -71.70574582323385,
+        103.00573856686826
+      ],
+      "product_overlap_mm2": 9.419850381916647e-09,
+      "area_mm2": 1.0557048736947983,
+      "bezier_first_tangent_fraction": 0.32,
+      "bezier_second_tangent_fraction": 0.28,
+      "width_peak_parameter": 0.4,
+      "parameters": {
+        "xy": -72.3,
+        "yg": 102.0,
+        "tg": 0.25,
+        "ty": 0.2,
+        "width": 0.5,
+        "k1": 0.32,
+        "k2": 0.28,
+        "peak": 0.4
+      },
+      "yellow_weight_6000mm_N": 129.07225135054492,
+      "yellow_mass_6000mm_kg": 13.15721216621253,
+      "selfweight_q_N_per_mm_including_bridges_as_yellow_load": 0.021567966801736598,
+      "selfweight_nominal_stress_MPa": 0.5945184619078169,
+      "stages": [
+        {
+          "stage": "hot",
+          "assumed_temperature_C": 480,
+          "assumed_E_MPa": 40000,
+          "assumed_yield_MPa": [
+            5,
+            12,
+            25
+          ],
+          "ratio_nominal_yield_to_selfweight_stress": [
+            8.410167758213833,
+            20.184402619713197,
+            42.05083879106916
+          ],
+          "nominal_indicator_force_100mm_N": [
+            18.139021900619145,
+            43.533652561485944,
+            90.69510950309572
+          ],
+          "nominal_indicator_force_6000mm_N": [
+            1088.3413140371485,
+            2612.0191536891566,
+            5441.706570185743
+          ],
+          "critical_remaining_bond_length_mm_for_6000mm_weight": [
+            713.4221542893803,
+            297.25923095390846,
+            142.68443085787604
+          ],
+          "intact_selfweight_yellow_down_mm": 3.48745685921324e-05
+        },
+        {
+          "stage": "air_cooled_unaged",
+          "assumed_temperature_C": 25,
+          "assumed_E_MPa": 69000,
+          "assumed_yield_MPa": [
+            35,
+            55,
+            90
+          ],
+          "ratio_nominal_yield_to_selfweight_stress": [
+            58.87117430749683,
+            92.51184534035215,
+            151.38301964784898
+          ],
+          "nominal_indicator_force_100mm_N": [
+            126.973153304334,
+            199.52924090681057,
+            326.5023942111446
+          ],
+          "nominal_indicator_force_6000mm_N": [
+            7618.389198260041,
+            11971.754454408636,
+            19590.143652668674
+          ],
+          "critical_remaining_bond_length_mm_for_6000mm_weight": [
+            101.9174506127686,
+            64.85655948085275,
+            39.634564127187794
+          ],
+          "intact_selfweight_yellow_down_mm": 2.0217141212830376e-05
+        },
+        {
+          "stage": "aged_T5",
+          "assumed_temperature_C": 25,
+          "assumed_E_MPa": 69000,
+          "assumed_yield_MPa": [
+            110,
+            145,
+            170
+          ],
+          "ratio_nominal_yield_to_selfweight_stress": [
+            185.0236906807043,
+            243.89486498820114,
+            285.94570377927033
+          ],
+          "nominal_indicator_force_100mm_N": [
+            399.05848181362114,
+            526.0316351179551,
+            616.7267446210509
+          ],
+          "nominal_indicator_force_6000mm_N": [
+            23943.50890881727,
+            31561.89810707731,
+            37003.60467726305
+          ],
+          "critical_remaining_bond_length_mm_for_6000mm_weight": [
+            32.428279740426376,
+            24.600763941013113,
+            20.983004537922948
+          ],
+          "intact_selfweight_yellow_down_mm": 2.0217141212830376e-05
+        }
+      ]
+    },
+    {
+      "h_mm": 0.01,
+      "nodes": 17173,
+      "elements": 33508,
+      "q_N_per_mm_at_0_001mm": 1.060444999482812,
+      "stiffness_N_per_mm_length_per_mm": 1060.444999482812,
+      "neck": {
+        "left_green": {
+          "force_x_per_q": 1.060681890130921,
+          "force_y_per_q": 0.49999999999496486,
+          "moment_per_q": 0.22451286534444911,
+          "nominal_equivalent_per_q": 28.32594760309243,
+          "boundary_nodes": 26,
+          "section_chord_mm": 0.24000000000001157
+        },
+        "left_yellow": {
+          "force_x_per_q": -1.060681890131395,
+          "force_y_per_q": -0.5,
+          "moment_per_q": -0.14858869583321552,
+          "nominal_equivalent_per_q": 26.28847641682856,
+          "boundary_nodes": 24,
+          "section_chord_mm": 0.20989039012048705
+        }
+      },
+      "net_force_residual": 2.8087319287718226e-12,
+      "free_force_residual": 5.246999477899934e-12,
+      "geometry_area_mm2": 1.0560971069081875,
+      "mesh_area_mm2": 1.0560971069081848,
+      "yellow_to_green_nominal_ratio": 0.928070502183608,
+      "yellow_x_parameter_mm": -72.3,
+      "green_center_mm": [
+        -74.7820784514738,
+        102.0
+      ],
+      "yellow_chord_center_mm": [
+        -72.29912949050357,
+        103.09886887087364
+      ],
+      "green_neck_mm": 0.24,
+      "yellow_arc_neck_mm": 0.21,
+      "yellow_chord_neck_mm": 0.20989039012048705,
+      "nominal_body_width_mm": 0.5,
+      "root_center_distance_mm": 2.7152436977476277,
+      "centerline_length_mm": 2.8500990548731133,
+      "green_upper_end_to_existing_round_tangent_mm": 0.3802044772874004,
+      "yellow_connection_angle_from_flat_deg": 17.266762260647983,
+      "yellow_tangent_flat_point_mm": [
+        -71.70574582323385,
+        103.00573856686826
+      ],
+      "product_overlap_mm2": 9.308999446601755e-09,
+      "area_mm2": 1.0560971069081875,
+      "bezier_first_tangent_fraction": 0.32,
+      "bezier_second_tangent_fraction": 0.28,
+      "width_peak_parameter": 0.4,
+      "parameters": {
+        "xy": -72.3,
+        "yg": 102.0,
+        "tg": 0.24,
+        "ty": 0.21,
+        "width": 0.5,
+        "k1": 0.32,
+        "k2": 0.28,
+        "peak": 0.4
+      },
+      "yellow_weight_6000mm_N": 129.07225135054492,
+      "yellow_mass_6000mm_kg": 13.15721216621253,
+      "selfweight_q_N_per_mm_including_bridges_as_yellow_load": 0.02156798757989884,
+      "selfweight_nominal_stress_MPa": 0.6109336860923629,
+      "stages": [
+        {
+          "stage": "hot",
+          "assumed_temperature_C": 480,
+          "assumed_E_MPa": 40000,
+          "assumed_yield_MPa": [
+            5,
+            12,
+            25
+          ],
+          "ratio_nominal_yield_to_selfweight_stress": [
+            8.184194314084825,
+            19.642066353803582,
+            40.92097157042413
+          ],
+          "nominal_indicator_force_100mm_N": [
+            17.651660131766022,
+            42.36398431623846,
+            88.25830065883012
+          ],
+          "nominal_indicator_force_6000mm_N": [
+            1059.0996079059614,
+            2541.839058974307,
+            5295.498039529807
+          ],
+          "critical_remaining_bond_length_mm_for_6000mm_weight": [
+            733.1204233108355,
+            305.46684304618145,
+            146.6240846621671
+          ],
+          "intact_selfweight_yellow_down_mm": 3.50841190193462e-05
+        },
+        {
+          "stage": "air_cooled_unaged",
+          "assumed_temperature_C": 25,
+          "assumed_E_MPa": 69000,
+          "assumed_yield_MPa": [
+            35,
+            55,
+            90
+          ],
+          "ratio_nominal_yield_to_selfweight_stress": [
+            57.28936019859378,
+            90.02613745493308,
+            147.31549765352688
+          ],
+          "nominal_indicator_force_100mm_N": [
+            123.56162092236217,
+            194.16826144942627,
+            317.7298823717884
+          ],
+          "nominal_indicator_force_6000mm_N": [
+            7413.69725534173,
+            11650.095686965575,
+            19063.792942307304
+          ],
+          "critical_remaining_bond_length_mm_for_6000mm_weight": [
+            104.73148904440507,
+            66.64731121007596,
+            40.72891240615753
+          ],
+          "intact_selfweight_yellow_down_mm": 2.033861972136012e-05
+        },
+        {
+          "stage": "aged_T5",
+          "assumed_temperature_C": 25,
+          "assumed_E_MPa": 69000,
+          "assumed_yield_MPa": [
+            110,
+            145,
+            170
+          ],
+          "ratio_nominal_yield_to_selfweight_stress": [
+            180.05227490986616,
+            237.34163510845994,
+            278.2626066788841
+          ],
+          "nominal_indicator_force_100mm_N": [
+            388.33652289885254,
+            511.89814382121466,
+            600.1564444800448
+          ],
+          "nominal_indicator_force_6000mm_N": [
+            23300.19137393115,
+            30713.888629272882,
+            36009.38666880269
+          ],
+          "critical_remaining_bond_length_mm_for_6000mm_weight": [
+            33.32365560503798,
+            25.280014596925362,
+            21.56236539149516
+          ],
+          "intact_selfweight_yellow_down_mm": 2.033861972136012e-05
+        }
+      ]
+    },
+    {
+      "h_mm": 0.01,
+      "nodes": 17214,
+      "elements": 33586,
+      "q_N_per_mm_at_0_001mm": 1.0714622651647856,
+      "stiffness_N_per_mm_length_per_mm": 1071.4622651647855,
+      "neck": {
+        "left_green": {
+          "force_x_per_q": 1.0286703857599095,
+          "force_y_per_q": 0.5000000000015659,
+          "moment_per_q": 0.24693095153563352,
+          "nominal_equivalent_per_q": 26.350412236347594,
+          "boundary_nodes": 27,
+          "section_chord_mm": 0.25999999999998663
+        },
+        "left_yellow": {
+          "force_x_per_q": -1.0286703857594346,
+          "force_y_per_q": -0.5,
+          "moment_per_q": -0.13542136956301984,
+          "nominal_equivalent_per_q": 28.98876536616391,
+          "boundary_nodes": 22,
+          "section_chord_mm": 0.18991452363928976
+        }
+      },
+      "net_force_residual": 2.6248623744655294e-12,
+      "free_force_residual": 5.251405927312646e-12,
+      "geometry_area_mm2": 1.0553072339187692,
+      "mesh_area_mm2": 1.055307233918767,
+      "yellow_to_green_nominal_ratio": 1.1001256870728189,
+      "yellow_x_parameter_mm": -72.3,
+      "green_center_mm": [
+        -74.7820784514738,
+        102.0
+      ],
+      "yellow_chord_center_mm": [
+        -72.2992719157852,
+        103.09840207467482
+      ],
+      "green_neck_mm": 0.26,
+      "yellow_arc_neck_mm": 0.19,
+      "yellow_chord_neck_mm": 0.18991452363928976,
+      "nominal_body_width_mm": 0.5,
+      "root_center_distance_mm": 2.7149245682537777,
+      "centerline_length_mm": 2.8496602111141023,
+      "green_upper_end_to_existing_round_tangent_mm": 0.3702044772874129,
+      "yellow_connection_angle_from_flat_deg": 17.2982300796765,
+      "yellow_tangent_flat_point_mm": [
+        -71.70574582323385,
+        103.00573856686826
+      ],
+      "product_overlap_mm2": 9.504184223038121e-09,
+      "area_mm2": 1.0553072339187692,
+      "bezier_first_tangent_fraction": 0.32,
+      "bezier_second_tangent_fraction": 0.28,
+      "width_peak_parameter": 0.4,
+      "parameters": {
+        "xy": -72.3,
+        "yg": 102.0,
+        "tg": 0.26,
+        "ty": 0.19,
+        "width": 0.5,
+        "k1": 0.32,
+        "k2": 0.28,
+        "peak": 0.4
+      },
+      "yellow_weight_6000mm_N": 129.07225135054492,
+      "yellow_mass_6000mm_kg": 13.15721216621253,
+      "selfweight_q_N_per_mm_including_bridges_as_yellow_load": 0.0215679457371671,
+      "selfweight_nominal_stress_MPa": 0.6252281184048922,
+      "stages": [
+        {
+          "stage": "hot",
+          "assumed_temperature_C": 480,
+          "assumed_E_MPa": 40000,
+          "assumed_yield_MPa": [
+            5,
+            12,
+            25
+          ],
+          "ratio_nominal_yield_to_selfweight_stress": [
+            7.997081149766914,
+            19.192994759440595,
+            39.98540574883457
+          ],
+          "nominal_indicator_force_100mm_N": [
+            17.24806122938947,
+            41.39534695053473,
+            86.24030614694735
+          ],
+          "nominal_indicator_force_6000mm_N": [
+            1034.8836737633683,
+            2483.7208170320837,
+            5174.418368816841
+          ],
+          "critical_remaining_bond_length_mm_for_6000mm_weight": [
+            750.2737420858705,
+            312.6140592024461,
+            150.0547484171741
+          ],
+          "intact_selfweight_yellow_down_mm": 3.472330067628779e-05
+        },
+        {
+          "stage": "air_cooled_unaged",
+          "assumed_temperature_C": 25,
+          "assumed_E_MPa": 69000,
+          "assumed_yield_MPa": [
+            35,
+            55,
+            90
+          ],
+          "ratio_nominal_yield_to_selfweight_stress": [
+            55.9795680483684,
+            87.96789264743606,
+            143.94746069580447
+          ],
+          "nominal_indicator_force_100mm_N": [
+            120.73642860572629,
+            189.7286735232842,
+            310.46510212901046
+          ],
+          "nominal_indicator_force_6000mm_N": [
+            7244.185716343578,
+            11383.720411397051,
+            18627.90612774063
+          ],
+          "critical_remaining_bond_length_mm_for_6000mm_weight": [
+            107.18196315512436,
+            68.20670382598823,
+            41.68187456032614
+          ],
+          "intact_selfweight_yellow_down_mm": 2.0129449667413212e-05
+        },
+        {
+          "stage": "aged_T5",
+          "assumed_temperature_C": 25,
+          "assumed_E_MPa": 69000,
+          "assumed_yield_MPa": [
+            110,
+            145,
+            170
+          ],
+          "ratio_nominal_yield_to_selfweight_stress": [
+            175.93578529487212,
+            231.91535334324053,
+            271.9007590920751
+          ],
+          "nominal_indicator_force_100mm_N": [
+            379.4573470465684,
+            500.1937756522946,
+            586.434081799242
+          ],
+          "nominal_indicator_force_6000mm_N": [
+            22767.440822794102,
+            30011.62653913768,
+            35186.04490795452
+          ],
+          "critical_remaining_bond_length_mm_for_6000mm_weight": [
+            34.103351912994114,
+            25.871508347788637,
+            22.066874767231486
+          ],
+          "intact_selfweight_yellow_down_mm": 2.0129449667413212e-05
+        }
+      ]
+    }
+  ],
+  "mesh_convergence": [
+    {
+      "h_mm": 0.02,
+      "nodes": 4439,
+      "elements": 8450,
+      "q_N_per_mm_at_0_001mm": 1.071596706942966,
+      "stiffness_N_per_mm_length_per_mm": 1071.596706942966,
+      "neck": {
+        "left_green": {
+          "force_x_per_q": 1.0446184437707202,
+          "force_y_per_q": 0.5000000000025497,
+          "moment_per_q": 0.23598187580394397,
+          "nominal_equivalent_per_q": 27.32969652891414,
+          "boundary_nodes": 14,
+          "section_chord_mm": 0.24999999999999908
+        },
+        "left_yellow": {
+          "force_x_per_q": -1.044618443770535,
+          "force_y_per_q": -0.5,
+          "moment_per_q": -0.1421978794768146,
+          "nominal_equivalent_per_q": 27.59305427475183,
+          "boundary_nodes": 14,
+          "section_chord_mm": 0.19990244936139148
+        }
+      },
+      "net_force_residual": 7.476000322373777e-13,
+      "free_force_residual": 2.537899599667933e-12,
+      "geometry_area_mm2": 1.0557048736947983,
+      "mesh_area_mm2": 1.055704873694798,
+      "yellow_to_green_nominal_ratio": 1.0096363216312725
+    },
+    {
+      "h_mm": 0.01,
+      "nodes": 17189,
+      "elements": 33539,
+      "q_N_per_mm_at_0_001mm": 1.0668158556487182,
+      "stiffness_N_per_mm_length_per_mm": 1066.815855648718,
+      "neck": {
+        "left_green": {
+          "force_x_per_q": 1.0447573706571271,
+          "force_y_per_q": 0.4999999999955009,
+          "moment_per_q": 0.23561812645541894,
+          "nominal_equivalent_per_q": 27.295917972396843,
+          "boundary_nodes": 26,
+          "section_chord_mm": 0.24999999999999908
+        },
+        "left_yellow": {
+          "force_x_per_q": -1.044757370656744,
+          "force_y_per_q": -0.5,
+          "moment_per_q": -0.14198676014427328,
+          "nominal_equivalent_per_q": 27.564882094493385,
+          "boundary_nodes": 23,
+          "section_chord_mm": 0.19990244936139148
+        }
+      },
+      "net_force_residual": 4.1223954047355145e-12,
+      "free_force_residual": 5.2903180276002646e-12,
+      "geometry_area_mm2": 1.0557048736947983,
+      "mesh_area_mm2": 1.0557048736947987,
+      "yellow_to_green_nominal_ratio": 1.0098536390081672
+    },
+    {
+      "h_mm": 0.005,
+      "nodes": 67393,
+      "elements": 133343,
+      "q_N_per_mm_at_0_001mm": 1.0653287989519722,
+      "stiffness_N_per_mm_length_per_mm": 1065.3287989519722,
+      "neck": {
+        "left_green": {
+          "force_x_per_q": 1.0447757934517652,
+          "force_y_per_q": 0.5000000000014762,
+          "moment_per_q": 0.2355059596993581,
+          "nominal_equivalent_per_q": 27.28540692040576,
+          "boundary_nodes": 51,
+          "section_chord_mm": 0.24999999999999908
+        },
+        "left_yellow": {
+          "force_x_per_q": -1.04477579345036,
+          "force_y_per_q": -0.5,
+          "moment_per_q": -0.14189483331204764,
+          "nominal_equivalent_per_q": 27.5523510851526,
+          "boundary_nodes": 43,
+          "section_chord_mm": 0.19990244936139148
+        }
+      },
+      "net_force_residual": 1.328057849581767e-11,
+      "free_force_residual": 1.1072745043757376e-11,
+      "geometry_area_mm2": 1.0557048736947983,
+      "mesh_area_mm2": 1.0557048736947983,
+      "yellow_to_green_nominal_ratio": 1.0097834042030431,
+      "body_max_vm_per_q_excluding_roots_0_4mm": 15.660204046818597
+    }
+  ],
+  "second_root": [
+    {
+      "h_mm": 0.02,
+      "nodes": 4439,
+      "elements": 8450,
+      "neck": {
+        "left_green": {
+          "force_x_per_q": 0.2970700801630888,
+          "force_y_per_q": 0.9548556788770638,
+          "moment_per_q": 2.0444199200180315,
+          "nominal_equivalent_per_q": 197.75482067717786,
+          "boundary_nodes": 14,
+          "section_chord_mm": 0.24999999999999908
+        }
+      },
+      "net_force_residual": 4.1540588063716944e-11,
+      "free_force_residual": 4.0995808700712676e-11,
+      "geometry_area_mm2": 1.0557048736947983,
+      "mesh_area_mm2": 1.055704873694798,
+      "mode": "yellow_first",
+      "contact_compliance_mm_per_N_per_mm": 0.017703507768414443,
+      "contact_approach_per_yellow_down": 0.9548556788664742,
+      "contact_direction": [
+        -0.2970700801771271,
+        -0.9548556788664742
+      ],
+      "remaining_root": "left_green",
+      "stages": [
+        {
+          "stage": "hot",
+          "remaining_root_nominal_yield_yellow_down_mm": 0.0019407288274283757,
+          "nominal_vertical_force_100mm_N": 11.588357853589402
+        },
+        {
+          "stage": "air_cooled_unaged",
+          "remaining_root_nominal_yield_yellow_down_mm": 0.005156525869978776,
+          "nominal_vertical_force_100mm_N": 53.11330682895143
+        },
+        {
+          "stage": "aged_T5",
+          "remaining_root_nominal_yield_yellow_down_mm": 0.013594477293580409,
+          "nominal_vertical_force_100mm_N": 140.02599073087194
+        }
+      ]
+    },
+    {
+      "h_mm": 0.01,
+      "nodes": 17189,
+      "elements": 33539,
+      "neck": {
+        "left_green": {
+          "force_x_per_q": 0.2970700801624766,
+          "force_y_per_q": 0.9548556788206385,
+          "moment_per_q": 2.044419919978079,
+          "nominal_equivalent_per_q": 197.7548206733122,
+          "boundary_nodes": 26,
+          "section_chord_mm": 0.24999999999999908
+        }
+      },
+      "net_force_residual": 5.828452663505151e-12,
+      "free_force_residual": 8.571553840039361e-11,
+      "geometry_area_mm2": 1.0557048736947983,
+      "mesh_area_mm2": 1.0557048736947987,
+      "mode": "yellow_first",
+      "contact_compliance_mm_per_N_per_mm": 0.017803669871323178,
+      "contact_approach_per_yellow_down": 0.9548556788664742,
+      "contact_direction": [
+        -0.2970700801771271,
+        -0.9548556788664742
+      ],
+      "remaining_root": "left_green",
+      "stages": [
+        {
+          "stage": "hot",
+          "remaining_root_nominal_yield_yellow_down_mm": 0.0019517089949606578,
+          "nominal_vertical_force_100mm_N": 11.58835785381593
+        },
+        {
+          "stage": "air_cooled_unaged",
+          "remaining_root_nominal_yield_yellow_down_mm": 0.0051857002281563355,
+          "nominal_vertical_force_100mm_N": 53.113306829989675
+        },
+        {
+          "stage": "aged_T5",
+          "remaining_root_nominal_yield_yellow_down_mm": 0.013671391510593977,
+          "nominal_vertical_force_100mm_N": 140.02599073360915
+        }
+      ]
+    },
+    {
+      "h_mm": 0.02,
+      "nodes": 4439,
+      "elements": 8450,
+      "neck": {
+        "left_yellow": {
+          "force_x_per_q": -0.9998942975434773,
+          "force_y_per_q": -0.014539386822574496,
+          "moment_per_q": -1.0624198242575411,
+          "nominal_equivalent_per_q": 161.54686993018404,
+          "boundary_nodes": 14,
+          "section_chord_mm": 0.19990244936139148
+        }
+      },
+      "net_force_residual": 2.7359285476870764e-11,
+      "free_force_residual": 3.678883292923203e-11,
+      "geometry_area_mm2": 1.0557048736947983,
+      "mesh_area_mm2": 1.055704873694798,
+      "mode": "green_first",
+      "contact_compliance_mm_per_N_per_mm": 0.006799384829321018,
+      "contact_approach_per_yellow_down": 0.014539386850273665,
+      "contact_direction": [
+        0.9998942975285028,
+        0.014539386850273665
+      ],
+      "remaining_root": "left_yellow",
+      "stages": [
+        {
+          "stage": "hot",
+          "remaining_root_nominal_yield_yellow_down_mm": 0.05992324557410396,
+          "nominal_vertical_force_100mm_N": 0.21600250413850305
+        },
+        {
+          "stage": "air_cooled_unaged",
+          "remaining_root_nominal_yield_yellow_down_mm": 0.15921635297467235,
+          "nominal_vertical_force_100mm_N": 0.9900114773014724
+        },
+        {
+          "stage": "aged_T5",
+          "remaining_root_nominal_yield_yellow_down_mm": 0.41975220329686347,
+          "nominal_vertical_force_100mm_N": 2.6100302583402457
+        }
+      ]
+    },
+    {
+      "h_mm": 0.01,
+      "nodes": 17189,
+      "elements": 33539,
+      "neck": {
+        "left_yellow": {
+          "force_x_per_q": -0.999894297504136,
+          "force_y_per_q": -0.014539386868255733,
+          "moment_per_q": -1.0624198241887963,
+          "nominal_equivalent_per_q": 161.54686992000092,
+          "boundary_nodes": 23,
+          "section_chord_mm": 0.19990244936139148
+        }
+      },
+      "net_force_residual": 5.598189276856558e-11,
+      "free_force_residual": 7.466562310739122e-11,
+      "geometry_area_mm2": 1.0557048736947983,
+      "mesh_area_mm2": 1.0557048736947987,
+      "mode": "green_first",
+      "contact_compliance_mm_per_N_per_mm": 0.006855787195269901,
+      "contact_approach_per_yellow_down": 0.014539386850273665,
+      "contact_direction": [
+        0.9998942975285028,
+        0.014539386850273665
+      ],
+      "remaining_root": "left_yellow",
+      "stages": [
+        {
+          "stage": "hot",
+          "remaining_root_nominal_yield_yellow_down_mm": 0.060420321844450765,
+          "nominal_vertical_force_100mm_N": 0.21600250415211883
+        },
+        {
+          "stage": "air_cooled_unaged",
+          "remaining_root_nominal_yield_yellow_down_mm": 0.1605370870263185,
+          "nominal_vertical_force_100mm_N": 0.990011477363878
+        },
+        {
+          "stage": "aged_T5",
+          "remaining_root_nominal_yield_yellow_down_mm": 0.4232341385239305,
+          "nominal_vertical_force_100mm_N": 2.610030258504769
+        }
+      ]
+    }
+  ]
+}

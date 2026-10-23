@@ -1,38 +1,43 @@
-# 알루미늄 연결 압출품 — REV B 재검토와 REV C 제안
+# 알루미늄 연결 압출품 — REV D
 
-제품 형상은 그대로 두고 흰 연결부의 위치·형태만 변경한 검토 자료입니다. **완전 파단이나 금형 제작을 승인한 도면이 아닙니다.**
+제품 형상을 유지하고 흰 연결부만 기존 라운드 가까이 옮긴 짧은 연결부 검토안입니다. **파단 후 디버링·연마·트리밍·절삭 등 후처리는 제외했습니다.** 완전 무자국, 실제 완전 파단, 금형 제작 가능성을 확정한 도면은 아닙니다.
 
 ## 최신 자료 다운로드
 
-- **[보고서·도면·움직임 GIF·계산 자료 전체 ZIP](https://github.com/dltkdghk1103-hue/-/raw/refs/heads/main/downloads/revB_revC_complete_download.zip)**
-- [REV B 재검토 및 REV C 추천 보고서 PDF](https://github.com/dltkdghk1103-hue/-/raw/refs/heads/main/downloads/revB_revC_review_KO.pdf)
-- [REV C 연결부 수정 DXF](https://github.com/dltkdghk1103-hue/-/raw/refs/heads/main/downloads/bridge_relocated_revC_CONCEPT.dxf)
-- [REV C 도면 PDF](https://github.com/dltkdghk1103-hue/-/raw/refs/heads/main/downloads/bridge_relocated_revC_CONCEPT.pdf)
-- [양끝 완전 분리 후 조건부 낙하 비교 GIF](https://github.com/dltkdghk1103-hue/-/raw/refs/heads/main/downloads/conditional_drop_revB_revC.gif)
-- [입력·계산 코드·결과 ZIP](https://github.com/dltkdghk1103-hue/-/raw/refs/heads/main/downloads/review_results_and_sources.zip)
-- [보고서 웹에서 읽기](downloads/revB_revC_review_KO.md)
-- [제품 형상 보존 기록](downloads/geometry_preservation.json) · [접촉 계산 검산](downloads/trajectory_numerical_checks.json)
+- [보고서·수정도면·낙하 GIF·계산 자료 전체 ZIP](https://github.com/dltkdghk1103-hue/-/raw/refs/heads/main/downloads/revD_complete_download.zip)
+- [REV D 보고서 PDF](https://github.com/dltkdghk1103-hue/-/raw/refs/heads/main/downloads/revD_review_KO.pdf)
+- [REV D 수정 DXF](https://github.com/dltkdghk1103-hue/-/raw/refs/heads/main/downloads/short_bridge_revD_CONCEPT.dxf)
+- [REV D 도면 PDF](https://github.com/dltkdghk1103-hue/-/raw/refs/heads/main/downloads/short_bridge_revD_CONCEPT.pdf)
+- [양끝 완전 분리 후 조건부 낙하 GIF](https://github.com/dltkdghk1103-hue/-/raw/refs/heads/main/downloads/revD_conditional_drop.gif)
+- [입력·계산 코드·결과 ZIP](https://github.com/dltkdghk1103-hue/-/raw/refs/heads/main/downloads/revD_results_and_sources.zip)
+- [보고서 웹에서 읽기](downloads/revD_review_KO.md)
+- [제품 형상 보존 기록](downloads/geometry_preservation_revD.json) · [파일 SHA256](downloads/REV_D_SHA256SUMS.txt)
 
-기존 `report_and_modified_drawings.zip`과 `extrusion_analysis_report_KO.pdf` 주소도 최신 자료로 갱신했습니다. 비공개 저장소이면 접근 가능한 GitHub 계정으로 로그인한 뒤 파일 화면의 **Download raw file** 버튼을 이용하세요.
+기존 `report_and_modified_drawings.zip`과 `extrusion_analysis_report_KO.pdf` 주소도 REV D로 갱신했습니다. 파일 화면에서는 **Download raw file** 버튼으로 받을 수 있습니다.
 
-## 이번 결론
+## 이번 변경과 결과
 
-- **REV B:** 정밀 접촉 계산에서 상단 입구에 남았습니다. 거친 계산의 일부 낙하 결과는 시간 간격을 줄이자 바뀌었으므로 안정 낙하의 근거로 쓰지 않았습니다.
-- **REV C:** 흰 연결부를 기존 초록 내벽과 노란 판 밑면 사이로 이동했습니다. 초록 목 0.35 mm, 노란 목 0.25 mm, 몸통 약 0.65 mm. 노란 목이 조금 먼저 약해지고, 내려오는 판이 남은 초록 목을 계속 누르는 배치를 우선 추천합니다.
-- **내부 진입:** 두 목이 이미 완전히 끊어진 조건에서 기본 9개와 초기 반동 12개 모두 내부 바닥 영역에 도달했습니다. 이 개수는 작업 성공률이 아닙니다. 일부 기본 조건에서 움직임이 남았고 최종 위치도 달라져, 모든 조건의 안정 정지까지 확인한 것은 아닙니다.
-- **두 번째 목:** 초록 목이 먼저 끊어지면 기존 경사벽 접촉이 있어야 남은 노란 목에 추가 힘이 전달됩니다. 균열 틈·미끄러짐에 따라 접촉이 없어질 수 있어, 어느 순서든 깨끗하게 끊어진다는 보장은 없습니다.
-- **6 m / 사람 힘:** 100 mm 환산값은 손 접촉 폭과 같지 않습니다. 판 휨을 제외하고 6 m 전체가 함께 내려가는 모델은 손 압력만으로 전 길이 동시 분리를 지지하지 않습니다. 고무망치의 실제 파단과 길이 방향 순차 균열은 검증하지 않았습니다.
+- **위치와 길이:** 노란 접속점을 기존 R2 라운드로 이동했습니다. 접속 중심 거리는 REV C 4.250 → REV D 2.715 mm로 약 36% 감소했습니다. 평판 안쪽으로 깊게 들어가지 않습니다. 최소 제조 가능 길이를 확정한 값은 아닙니다.
+- **두께와 파단 순서:** 초록 목 0.25 mm, 노란 목 약 0.20 mm, 몸통 약 0.50 mm입니다. 두 목의 공칭 응력 지표를 약 1% 이내로 맞췄지만 동시 파단을 보장하지 않습니다. 한쪽이 먼저 끊어진 뒤 남은 목에 힘이 전달되는지는 접촉 유지에 달려 있습니다.
+- **자중:** 양측 목이 6 m 전 길이에 연속해 남은 조건에서 자중 공칭 응력 지표는 약 0.59 MPa입니다. 냉각 후·T5 후에 자중만으로 끊어질 가능성은 이 근사에서는 낮습니다. 일부만 남은 상태, 고온 유동·인장·크리프·충격은 별도이며 취급 허용하중을 뜻하지 않습니다.
+- **내부 낙하:** 두 목이 이미 완전히 분리된 강체 조건의 15개 계산은 모두 내부 바닥 영역에 도달했습니다. 실제 파단 성공률이 아니며, 모든 조건의 안정 정지·같은 최종 위치까지 보장하지 않습니다.
+- **자국 / 후처리 없음:** 제품에 숨김 홈이나 단차를 추가하지 않았습니다. 접속띠를 내측에 두어 외부 노출을 줄이는 배치입니다. 제한적인 2D 시야 검사에서는 가려졌지만, 파단 돌기·뜯김·질감 차이와 단부에서의 노출은 미검증입니다. **완전 무자국 요구를 충족했다고 판정하지 않습니다.**
 
-![연결부 위치·형태 변경](downloads/revC_geometry.png)
+![REV C와 REV D 형상 비교](downloads/revC_revD_geometry.png)
 
-## 제품 형상과 모델의 범위
+## 제품 형상과 검토 범위
 
-원본 노란색·초록색 제품 엔티티 4개의 좌표, 원호 bulge, 폭, 열린/닫힌 상태를 DXF 저장 후 비교했습니다. 모두 동일합니다. 제품에 턱·홈·가이드·돌출부를 추가하지 않았습니다. 원래 목 끝면의 폐곡선 표시와 새 연결부의 재료 접속선을 구분해서 읽어야 하며, DXF는 금형 와이어 가공용 윤곽도가 아닙니다.
+원본 노란색·초록색 제품 DXF 엔티티 4개의 좌표, 원호 bulge, 폭, 열린/닫힌 상태를 저장 후 비교해 동일함을 확인했습니다. 제품에 턱·홈·가이드·돌출부를 추가하지 않았습니다. 기존 목 끝면 표시는 원래 제품 폐곡선을 명시하며, 새 연결부와 겹치는 제품선은 재료 경계이지 절개 틈이 아닙니다. DXF는 금형 와이어 가공용 최종 윤곽도가 아닙니다.
 
-보고서는 탄성 목 단면 비교, 한 목 제거 후 하중 전달 근사, 양끝 분리 후 강체 접촉 계산을 구분합니다. 균열 생성부터 최종 낙하까지 이어지는 손상 해석이 아닙니다. 무고정 제품에 대한 편심 타격·기울어짐, 고온 소성, 실제 버, 6 m 비틀림·파단 전파, 다이 유동·강도는 검증하지 않았습니다.
+보고서는 탄성 목 단면 비교, 한 목 제거 후 이상화한 접촉 하중 전달, 양끝 분리 후 강체 접촉 계산을 구분합니다. 균열 생성부터 낙하까지 이어지는 손상 해석은 아닙니다. 판 휨을 제외했고, 자유 지지 제품의 편심 타격·기울어짐과 6 m 길이 방향 파단 전파도 검증하지 않았습니다. 손 접촉 폭을 유효 가압 길이로 간주하거나, 사람이 6 m 전 길이를 쉽게 분리할 수 있다고 해석하면 안 됩니다.
+
+0.20 mm 목의 충전성, 다이 지지, 베어링·유속 균형 등 금형 검토가 남아 있습니다. 곡선 피팅은 제작 전 도면 검토 사항이며, 제품 파단 후 후처리를 제안한 것이 아닙니다.
 
 ## 이전 자료
 
-[REV B 도면 DXF](downloads/modified_bridge_only_revB_CONCEPT.dxf)와 [이전 정정 보고서](downloads/corrected_report_revB_KO.pdf)는 이력용입니다. REV B의 최신 낙하 판단은 위 최신 보고서를 보세요.
+[REV B 재검토 / REV C 전체 ZIP](https://github.com/dltkdghk1103-hue/-/raw/refs/heads/main/downloads/revB_revC_complete_download.zip) · [REV C 보고서](https://github.com/dltkdghk1103-hue/-/raw/refs/heads/main/downloads/revB_revC_review_KO.pdf) · [REV C DXF](https://github.com/dltkdghk1103-hue/-/raw/refs/heads/main/downloads/bridge_relocated_revC_CONCEPT.dxf)
+
+
+[REV B 도면 DXF](downloads/modified_bridge_only_revB_CONCEPT.dxf)와 [이전 정정 보고서](downloads/corrected_report_revB_KO.pdf)는 이력용입니다. REV B의 최신 낙하 판단은 REV B 재검토 / REV C 보고서를 보세요.
 
 **REV A는 철회 상태입니다.** 제품에 안내 턱을 추가하고 제품 목 주변을 변경한 이전 안은 형상 보존과 포개짐 조건에 맞지 않았습니다. 현재 파일 목록에 REV A 도면은 없으며, 이미 받은 REV A는 사용 대상이 아닙니다.

@@ -1,0 +1,61 @@
+{
+  "yellow_x_parameter_mm": -72.3,
+  "green_center_mm": [
+    -74.7820784514738,
+    102.0
+  ],
+  "yellow_chord_center_mm": [
+    -72.2992007031444,
+    103.09863547277423
+  ],
+  "green_neck_mm": 0.25,
+  "yellow_arc_neck_mm": 0.2,
+  "yellow_chord_neck_mm": 0.19990244936139148,
+  "nominal_body_width_mm": 0.5,
+  "root_center_distance_mm": 2.7150841267237262,
+  "centerline_length_mm": 2.8498822863231945,
+  "green_upper_end_to_existing_round_tangent_mm": 0.3752044772874067,
+  "yellow_connection_angle_from_flat_deg": 17.28171004054626,
+  "yellow_tangent_flat_point_mm": [
+    -71.70574582323385,
+    103.00573856686826
+  ],
+  "product_overlap_mm2": 9.419850381916647e-09,
+  "area_mm2": 1.0557048736947983,
+  "bezier_first_tangent_fraction": 0.32,
+  "bezier_second_tangent_fraction": 0.28,
+  "width_peak_parameter": 0.4,
+  "product_entities": {
+    "F369": {
+      "native_vertices_bulges_widths_flags_identical": true,
+      "vertex_count": 123
+    },
+    "F36A": {
+      "native_vertices_bulges_widths_flags_identical": true,
+      "vertex_count": 10
+    },
+    "F3A2": {
+      "native_vertices_bulges_widths_flags_identical": true,
+      "vertex_count": 186
+    },
+    "F3A3": {
+      "native_vertices_bulges_widths_flags_identical": true,
+      "vertex_count": 22
+    }
+  },
+  "original_product_R2_unchanged": true,
+  "mm_units": true,
+  "left_bridge_max_x_mm": -72.20376170864837,
+  "left_yellow_flat_tangent_x_mm": -71.70574582323385,
+  "bridge_stays_outboard_of_flat_tangent": true,
+  "right_product_overlap_mm2": 9.419850382694703e-09,
+  "connected_metal_regions": 1,
+  "closed_internal_holes": 1,
+  "revC_root_center_distance_mm": 4.250452585957799,
+  "distance_reduction_percent": 36.12246997664349,
+  "bridge_mass_6000mm_g": 17.102418953855732,
+  "product_geometry_changed": false,
+  "manufacturability_verified": false,
+  "fracture_verified": false,
+  "original_arc_discretization_radial_error_mm": 4.723162888975452e-05
+}
